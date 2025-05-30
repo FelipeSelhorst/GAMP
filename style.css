@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    text-align: center;
+    background-image: url(img/desktop/background.png);
+    font-family: "Inria Serif", serif;
+    color: #fff;
+}
+
+/* Profile */
+
+.pfp {
+    padding: 65px 0 20px 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+.me {
+    top: 111px 0 0 0;
+    border: #272324 solid 2px;
+    border-radius: 900px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.socials {
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 29px 0px 29px;
+}
+
+.bio p {
+    padding: 0px 344px 230px 344px;
+    font-size: 24px;
+}
+
+/* Get links */
+
+.get-links h2 {
+    user-select: none;
+    padding-bottom: 180px;
+}
+
+.get-links a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.projects {
+    display: grid;
+    gap: 18px;
+    place-items: center;
+}
+
+.projects button {
+    cursor: pointer;
+    width: 582px;
+    height: 97px;
+    border-radius: 15px;
+    background-color: rgba(181, 181, 181, 0.25);
+    border: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inria Serif", serif;
+    transition: all 0.3s ease;
+}
+
+.projects button:hover {
+    background-color: rgba(121, 121, 121, 0.25);
+}
+
+/* Footer */
+
+footer {
+    padding: 180px 0px 30px;
+    font-family: "Inria Serif", serif;
+    display: grid;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 24px;
+    user-select: none;
+}
+
+footer li {
+    list-style: none;
+}
+
+.logo img {
+    width: 150px;
+    pointer-events: none;
+    user-select: none;
+}
